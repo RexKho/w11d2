@@ -16,7 +16,7 @@ class Weather extends React.Component {
         { timeout: 10000 }
       );
     }
-
+    
     pollWeather = async (location) => {
       let url = 'http://api.openweathermap.org/data/2.5/weather?';
 
